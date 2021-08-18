@@ -1,0 +1,4 @@
+1- Hased Password (security)
+2- SQL PREPARE STATEMENTS (Not Directly Running User Provided Data into Table indirect manuplation)
+3- Validation (fname invalid chrachter;email)
+4- Sanitize form data (strip any chracters that can be used for sql injection)

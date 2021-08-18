@@ -1,0 +1,263 @@
+*{
+
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #eee;
+}
+
+nav {
+  color: white;
+  width: 100%;
+  height: 50px;
+  background-color:#4CAF50;
+
+}
+
+nav a {
+  text-transform:capitalize !important;
+  text-decoration:none !important;
+  display: inline-block;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #d9d9d9;
+  text-shadow: black;
+  float: left;
+  line-height: 50px;
+  padding: 0 20px;
+
+}
+nav a:hover{
+  background-color: #009900;
+  color: white;
+}
+
+nav a.active{
+  background-color: #009900;
+  color: white;
+}
+
+nav #search{
+  float: right !important;
+  /* padding: auto; */
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+
+}
+nav #search input{
+  margin-right: -9px;
+}
+
+nav #search i{
+  width: 50px;
+}
+
+
+/*Login And Sign Up*/
+.my_form{
+
+  width: 40%;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  text-decoration: none;
+  background:#fff;
+  padding: 20px;
+  margin:20px auto 20px auto ;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.my_form h1
+{
+  color: #1c8abd;
+  margin-bottom: 30px;
+
+}
+
+.my_form a
+{
+  display:block;
+  width: 50%;
+  margin: auto;
+  color: #0000CD;
+  text-decoration: none !important;
+  padding-bottom: 3%;
+}
+
+.my_form input
+{
+  text-align: center;
+  border-radius: 20px;
+  padding: 8px;
+  margin: 10px;
+  width: 90%;
+  outline: none;
+  border:1px solid #999;
+
+
+}
+
+.my_form #gender input
+{
+  width: 10%;
+}
+
+
+.my_form button
+{
+  background-color: green;
+  color: #fff;
+  width: 40%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.my_form #type
+{
+  border-radius: 20px;
+  padding: 8px;
+  margin: 10px 0;
+  width: 90%;
+  outline: none;
+  border:1px solid #999;
+}
+
+#footer
+{
+  clear: both;
+  padding: 10px;
+  display: block;
+  background-color: #999;
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-family: serif;
+  font-size: 150%;
+  font-style: bold;
+}
+
+
+
+.product-image{
+  display: block;
+  width: 30%;
+  text-align: center;
+  border:3px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*BOOTSTRAP*/
+.mySlides
+{
+  display: block;
+  border: 3px solid #00bfff ;
+  border-radius: 30px;
+  height: 60% !important;
+}
+
+.w3-content
+{
+  margin-right:  48%;
+  /*border:3px solid red;*/
+  width: 50%;
+}
+
+#Description{
+  display: block;
+  text-align: right;
+
+}
+
+.w3-content ,.w3-display-container
+{
+  margin:none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+
+  nav {
+    text-align: left;
+    width: 100%;
+    height: 100px;
+
+
+  }
+
+  nav a {
+    font-size: 15px;
+    /* line-height: 50px; */
+    padding-right: 10px;
+    padding-left: 10px;
+    text-transform: capitalize;
+  }
+
+  nav #search{
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+  }
+
+  .my_form{
+
+    width: 80%;
+  }
+
+
+}
